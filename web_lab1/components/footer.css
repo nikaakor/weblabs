@@ -1,0 +1,32 @@
+.footer {
+  margin-top: 200px;
+  background: linear-gradient(183deg, #67c3f3 -8.57%, #5a98f2 82.96%);
+  padding: 46px 87px 30px 87px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  img {
+    cursor: pointer;
+  }
+
+  nav {
+    display: flex;
+    column-gap: 177px;
+
+    a {
+      color: #fff;
+      text-decoration: none;
+      font-family: Mulish;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 300%;
+
+      span {
+        font-weight: 700;
+        color: #0b132a;
+      }
+    }
+  }
+}
