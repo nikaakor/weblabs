@@ -7,3 +7,6 @@
 
 ### Лабораторна робота #2 (Варіант 4)
 Посилання на вітку [тут](https://github.com/nikaakor/weblabs/pull/2/commits/b45da631fd2a5c67f77ac8474c8ab894e8948106)
+
+### Лабораторна робота №3 (Варіант 4)
+Посилання на вітку [тут](https://github.com/nikaakor/weblabs/tree/lab3/web_lab3)
