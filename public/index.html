@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SuperHeroes</title>
+    <link rel="stylesheet" href="style.css" />
+    <script type="module" src="main.js"></script>
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header
+      class="flex justify-between items-center h-20 bg-gray-800 p-6 shadow-lg"
+    >
+      <h1 class="text-3xl font-bold">SuperHeroes</h1>
+      <div class="flex space-x-4">
+        <button
+          class="py-2 px-4 bg-gradient-to-r from-pink-500 to-red-500 rounded-lg shadow-md hover:scale-105 transition-transform"
+        >
+          Showroom
+        </button>
+        <button
+          onclick="window.location.href='create.html'"
+          class="py-2 px-4 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-lg shadow-md hover:scale-105 transition-transform"
+        >
+          Add New
+        </button>
+      </div>
+      <div class="flex items-center space-x-4">
+        <input
+          id="search-input"
+          type="text"
+          class="py-2 px-4 rounded-lg bg-gray-700 text-gray-200 placeholder-gray-400 border border-gray-600 focus:outline-none"
+          placeholder="Search..."
+        />
+        <button
+          onclick="searchCard()"
+          class="py-2 px-4 bg-gradient-to-r from-green-500 to-teal-500 rounded-lg shadow-md hover:scale-105 transition-transform"
+        >
+          Search
+        </button>
+        <button
+          onclick="clearSearch()"
+          class="py-2 px-4 bg-gradient-to-r from-red-500 to-pink-500 rounded-lg shadow-md hover:scale-105 transition-transform"
+        >
+          Clear
+        </button>
+      </div>
+    </header>
+
+    <!-- Main Section -->
+    <main class="flex flex-grow p-10">
+      <!-- Sidebar for options -->
+      <aside
+        class="w-72 p-6 bg-gray-800 rounded-lg border border-gray-700 shadow-xl"
+      >
+        <div class="flex items-center space-x-2">
+          <input
+            type="checkbox"
+            id="vel-sort-checkbox"
+            class="w-4 h-4"
+            onclick="sortCheckbox(this)"
+          />
+          <label for="vel-sort-checkbox" class="text-sm"
+            >Sort by power count</label
+          >
+        </div>
+        <hr class="my-4 border-gray-600" />
+        <button
+          onclick="alertAveragePowerCount()"
+          class="w-full py-2 bg-gradient-to-r from-yellow-500 to-orange-500 rounded-lg shadow-md hover:bg-orange-600 transition-all"
+        >
+          Count Average Power
+        </button>
+      </aside>
+
+      <!-- Showroom Section -->
+      <section
+        id="showroom"
+        class="flex flex-wrap justify-center gap-6 max-w-5xl p-6"
+      >
+        <!-- Hero Cards will be dynamically added here -->
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="w-full text-center p-4 bg-gray-800">
+      &copy; 2024 SuperHeroes App. All Rights Reserved.
+    </footer>
+  </body>
+</html>
