@@ -16,3 +16,9 @@
 
 ### Лабораторна робота №5
 Посилання на вітку [тут](https://github.com/nikaakor/weblabs/tree/lab5)
+
+### Лабораторна робота №6
+Посилання на вітку [тут](https://github.com/nikaakor/weblabs/tree/lab6)
+
+### Лабораторна робота №7
+Посилання на вітку [тут](https://github.com/nikaakor/weblabs/tree/lab7)
