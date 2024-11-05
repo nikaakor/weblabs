@@ -13,3 +13,6 @@
 
 ### Лабораторна робота №4 (Варіант 4)
 Посилання на вітку [тут](https://github.com/nikaakor/weblabs/tree/lab4/web_lab4)
+
+### Лабораторна робота №5
+Посилання на вітку [тут](https://github.com/nikaakor/weblabs/tree/lab5)
