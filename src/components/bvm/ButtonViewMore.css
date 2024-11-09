@@ -1,0 +1,23 @@
+.view-more-btn {
+  display: block;
+  margin: 20px auto; /* Центрування кнопки */
+  padding: 10px 20px;
+  background-color: #ef6b4a;
+  color: #f0f1f3;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 700;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.view-more-btn:hover {
+  background-color: #d9534f; /* Темніший колір на ховер */
+  transform: scale(1.05); /* Невелике збільшення при наведенні */
+}
+
+.view-more-btn:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(239, 107, 74, 0.5); /* Світіння при фокусі */
+}

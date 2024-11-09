@@ -1,0 +1,50 @@
+.featured-laptops {
+  text-align: center;
+  padding: 1rem;
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap; /* Дозволяє переходити на новий рядок, якщо не вистачає місця */
+  justify-content: center;
+  gap: 1rem; /* Простір між картками */
+  margin: 0 auto;
+}
+
+.catalog-cards {
+  width: 200px; /* Фіксована ширина картки */
+  background-color: #f8f9fa;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 20px;
+  transition: transform 0.2s ease;
+  text-align: center;
+}
+
+.catalog-cards:hover {
+  transform: scale(1.05);
+}
+
+.catalog-cards img {
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.catalog-cards h4 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 10px 0;
+}
+
+.catalog-cards p {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.catalog-cards .price {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #28a745;
+}
