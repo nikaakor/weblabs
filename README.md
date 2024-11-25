@@ -25,3 +25,6 @@
 
 ### Лабораторна робота №8
 Посилання на вітку [тут](https://github.com/nikaakor/weblabs/tree/lab8)
+
+### Лабораторна робота №9-10
+Посилання на вітку [тут](https://github.com/nikaakor/weblabs/tree/lab9-10)
