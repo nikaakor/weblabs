@@ -31,3 +31,32 @@ function ItemPage() {
 
 export default ItemPage;
 
+
+// import React, { useContext } from 'react';
+// import { useParams } from 'react-router-dom';
+// import { CatalogContext } from '../components/context/CatalogContext';
+
+// const ItemPage = () => {
+//   const { id } = useParams();
+//   const { items } = useContext(CatalogContext);
+
+//   // Find the item with the matching id
+//   const item = items.find(item => item.id === parseInt(id, 10));
+
+//   if (!item) {
+//     return <div>Item not found</div>;
+//   }
+
+//   return (
+//     <div>
+//       <h2>{item.model}</h2>
+//       <p>Properties: {item.properties}</p>
+//       <p>Price: ${item.price}</p>
+//       <p>Size: {item.size}</p>
+//       <p>Color: {item.color}</p>
+//       <p>Type: {item.type}</p>
+//     </div>
+//   );
+// };
+
+// export default ItemPage;

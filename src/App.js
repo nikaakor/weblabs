@@ -34,7 +34,8 @@ import Home from './routes/Home';
 import Root from './routes/Root';
 import Catalog from './routes/Catalog';
 import ItemPage from './routes/ItemPage';
-import { CatalogProvider } from './components/context/CatalogContext'; // Correct import
+import { CatalogProvider } from './components/context/CatalogContext';
+import { SearchProvider } from './components/context/SearchContext';
 
 const routes = createBrowserRouter([
   {
@@ -51,12 +52,11 @@ const routes = createBrowserRouter([
 const App = () => {
   return (
     <CatalogProvider>
-      <RouterProvider router={routes} />
+      <SearchProvider>
+        <RouterProvider router={routes} />
+      </SearchProvider>
     </CatalogProvider>
   );
 };
 
 export default App;
-
-
-
