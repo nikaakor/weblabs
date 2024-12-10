@@ -1,22 +1,3 @@
-// import React from 'react'; // Add this line
-// import './CatalogueCards.css';
-// import hp from '../../assets/img/hp.png';
-
-// function CatalogueCards(props) {
-//     return (
-//         <div className="catalog-cards">
-//             <li>
-//                 <img src={hp} alt="" className="hp" />
-//                 <h4>{props.model}</h4>
-//                 <p>{props.properties}</p>
-//                 <p className="price">{props.price + '$'}</p>
-//             </li>
-//         </div>
-//     );
-// }
-
-// export default CatalogueCards;
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './CatalogueCards.css';
@@ -40,3 +21,24 @@ function CatalogueCards({ id, model, properties, price }) {
 }
 
 export default CatalogueCards;
+
+// import React from 'react';
+// import { Link } from 'react-router-dom';
+
+// function CatalogueCards({ id, model, properties, price, size, color, type }) {
+//     return (
+//         <div className="catalogue-card">
+//             <h3>{model}</h3>
+//             <p>Properties: {properties}</p>
+//             <p>Price: ${price}</p>
+//             <p>Size: {size}</p>
+//             <p>Color: {color}</p>
+//             <p>Type: {type}</p>
+//             <Link to={`/item/${id}`} className="view-more">
+//                 View More
+//             </Link>
+//         </div>
+//     );
+// }
+
+// export default CatalogueCards;
